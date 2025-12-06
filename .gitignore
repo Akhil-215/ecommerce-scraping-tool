@@ -1,0 +1,18 @@
+# Ignore virtual environment (selenium is your venv folder)
+selenium/
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore generated CSV files (this is not be part of your code)
+*.csv
+
+# Ignore IDE configuration files (e.g., PyCharm)
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore OS-generated files like Thumbs.db or .DS_Store
+Thumbs.db
+.DS_Store
