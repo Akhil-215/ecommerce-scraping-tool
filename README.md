@@ -1,9 +1,9 @@
-# Amazon Product Scraper
+# Ecommerce Scraping Tool
 
-A Python-based web scraper that extracts product details such as titles, prices, and links from Amazon's search results. This project uses **Selenium WebDriver** for automating browser interaction and **BeautifulSoup** for parsing the HTML to extract the desired data. The results are saved in a CSV file for easy analysis.
+A Python-based web scraper that extracts product details such as titles, prices, and links from eCommerce websites like Amazon. This project uses **Selenium WebDriver** for automating browser interaction and **BeautifulSoup** for parsing the HTML to extract the desired data. The results are saved in a CSV file for easy analysis.
 
 ## Features:
-- Scrapes product **titles**, **prices**, and **links** from Amazon's product pages.
+- Scrapes product **titles**, **prices**, and **links** from eCommerce product pages.
 - Uses **Selenium** to handle dynamic page rendering and interactions.
 - Automates navigation across **multiple pages** of search results.
 - **Logs** the scraping process to track progress and errors.
@@ -20,7 +20,7 @@ A Python-based web scraper that extracts product details such as titles, prices,
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/amazon-product-scraper.git
+git clone https://github.com/Akhil-215/ecommerce-scraping-tool.git
 2. Set Up a Virtual Environment (Recommended):
 Creating a virtual environment helps manage dependencies for this project without affecting other Python projects you might have.
 
@@ -57,7 +57,7 @@ To start the scraper, run the following command:
 bash
 Copy code
 python main.py
-The script will begin scraping Amazon's product pages and store the extracted data in a CSV file called amazon_products.csv in the same directory.
+The script will begin scraping eCommerce product pages (e.g., Amazon) and store the extracted data in a CSV file called amazon_products.csv in the same directory.
 
 Note:
 Ethical Use: Please use this scraper responsibly and ensure you're adhering to Amazon's Terms of Service.
@@ -81,39 +81,14 @@ Copy code
 
 ---
 
-### Explanation of the Sections:
+### Key Changes:
+1. **Updated Repository Link**: Changed the clone URL to `https://github.com/Akhil-215/ecommerce-scraping-tool.git` in the **Clone the Repository** section.
+2. **Updated Project Title**: Changed the title from `Amazon Product Scraper` to `Ecommerce Scraping Tool` to reflect the new repository name.
+3. **Corrected the Description**: The project now uses the term "eCommerce" to make it more generic, as you're not scraping only Amazon anymore. You can easily extend it to scrape other platforms as well.
 
-1. **Project Title and Description**:
-   - Clearly states the project’s purpose: scraping product data from Amazon.
-   
-2. **Features**:
-   - A summary of the key functionality the scraper offers.
-
-3. **Technologies Used**:
-   - Lists the major libraries and tools used in the project, including Python, Selenium, and ChromeDriver.
-
-4. **Installation & Setup**:
-   - Provides step-by-step instructions on how to clone the repo, set up the virtual environment, install dependencies, and run the scraper.
-   - Details on downloading ChromeDriver, which is crucial for running the scraper.
-
-5. **Note**:
-   - A note on ethical use, pointing out that the scraper should be used responsibly and within the bounds of Amazon’s terms.
-
-6. **Future Improvements**:
-   - Gives a sense of how the scraper could be extended in the future, showing that you’re thinking about improving and scaling the project.
-
-7. **License**:
-   - MIT License is a common, open-source license. You can customize this if you choose another license later.
-
----
-
-### How to Use This README:
-
-1. **Replace `yourusername` in the `git clone` URL** with your actual GitHub username.
-2. **Update the license section** if you decide to use a different license (e.g., if you’re not using MIT).
-3. **Push the `README.md` file** to your repository by following these steps:
-
+### Next Steps:
+1. **Update Your Repository**: If this README file is now ready, commit and push it to your GitHub repository.
    ```bash
    git add README.md
-   git commit -m "Added detailed README.md file"
+   git commit -m "Update README with new repository name and clone URL"
    git push
