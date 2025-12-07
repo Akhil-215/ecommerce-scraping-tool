@@ -81,10 +81,6 @@ The script will begin scraping eCommerce product pages (e.g., Amazon) and store 
 * Implement periodic scraping and **store data over time** to track price changes.
 * Add more flexibility to **scrape different product categories** or regions (e.g., `amazon.co.uk`, `amazon.de`).
 
-## License:
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
-
 
 ### Key Sections:
 - **Cloning the Repository**: The updated repository URL.
